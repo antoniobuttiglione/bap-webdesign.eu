@@ -40,7 +40,7 @@ if (!empty($_POST)){
     exit;
   }
   //inserire nella variable $secretKey la SECRET KEY fornitaci da Google reCAPTCHA
-  $secretKey = "AIzaSyAwK5h-tjFszr2ew_uxZHjt4FOkedCTNnw";
+  $secretKey = "";
   $ip = $_SERVER['REMOTE_ADDR'];
   $response=file_get_contents("https://recaptchaenterprise.googleapis.com?secret=".$secretKey."&amp;response=".$captcha."&amp;remoteip=".$ip);
   $responseKeys = json_decode($response,true);
