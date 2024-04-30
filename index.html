@@ -562,7 +562,11 @@
                 </div>
                 <div class="row bg-black single-project" data-js-project-id="10" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ETBwv6qC41s?si=T7RLj8pHiv4LFKmW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/ETBwv6qC41s?si=T7RLj8pHiv4LFKmW"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
                         <div class="project-description">
@@ -808,7 +812,9 @@
                 <div class="row bg-black single-project" data-js-project-id="18" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
                         <div class="w3-content w3-display-container">
-                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLlkQZk0BmWusObdkjoMA6f%2Fw.academy%3Fpage-id%3D1%253A5%26type%3Ddesign%26node-id%3D841-6471%26viewport%3D-943%252C-521%252C0.35%26t%3DWZO56WlFyivA3Frf-1%26scaling%3Dcontain%26starting-point-node-id%3D494%253A4658%26mode%3Ddesign" allowfullscreen></iframe>
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLlkQZk0BmWusObdkjoMA6f%2Fw.academy%3Fpage-id%3D1%253A5%26type%3Ddesign%26node-id%3D841-6471%26viewport%3D-943%252C-521%252C0.35%26t%3DWZO56WlFyivA3Frf-1%26scaling%3Dcontain%26starting-point-node-id%3D494%253A4658%26mode%3Ddesign"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
@@ -828,7 +834,9 @@
                                 </div>
                             </div>
                             <p>
-                                Through a UX/UI Course, I've managed to work with my course team on doing a research on a website and a learning platform for w.academy. Open the prototype in full screen mode for a better experience.
+                                Through a UX/UI Course, I've managed to work with my course team on doing a research on
+                                a website and a learning platform for w.academy. Open the prototype in full screen mode
+                                for a better experience.
                             </p>
                         </div>
                     </div>
@@ -1418,7 +1426,7 @@
                 <a class="button mb-4" href="./media/Antonio_Buttiglione_resume_CV-low.pdf" target="_blank">
                     Download My Resume CV!
                 </a>
-<!--                 <a class="button" href="#contactSection">
+                <!--                 <a class="button" href="#contactSection">
                     Contact Me!
                 </a> -->
             </div>
@@ -1734,27 +1742,28 @@
             <div class="container">
                 <div class="row my-3">
                     <div class="col-12 col-md-5 bg-alternate">
-                        <!--action="./php/mail.php"-->
-                        <strong>This form is under maintainance, if you need to contact me check the email address in
-                            the footer or contact me via social networks</strong>
-                        <form action="./php/mail.php" action="" class="text-center" method="post">
-                            <div class="my-3">
-                                <input type="text" class="form-control" name="name" id="formName"
-                                    aria-describedby="nameHelp" placeholder="* Your name..." required disabled>
-                            </div>
-                            <div class="my-3">
-                                <input type="email" class="form-control" name="email" id="formEmail"
-                                    aria-describedby="emailHelp" placeholder="* Your email..." required disabled>
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control" name="comment" id="formComments" rows="3"
-                                    placeholder="* Comments..." required disabled></textarea>
-                            </div>
-                            <div class="g-recaptcha" data-sitekey="AIzaSyAwK5h-tjFszr2ew_uxZHjt4FOkedCTNnw"></div>
-                            <button disabled id="form-button" class="g-recaptcha button my-3"
-                                data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Send
-                                message</button>
-                        </form>
+                        <form id="contact-form"><!--action="./php/mail.php"-->
+                            <strong>This form is under maintainance, if you need to contact me check the email address
+                                in
+                                the footer or contact me via social networks</strong>
+                            <form action="./php/mail.php" action="" class="text-center" method="post">
+                                <div class="my-3">
+                                    <input type="text" class="form-control" name="name" id="formName"
+                                        aria-describedby="nameHelp" placeholder="* Your name..." required disabled>
+                                </div>
+                                <div class="my-3">
+                                    <input type="email" class="form-control" name="email" id="formEmail"
+                                        aria-describedby="emailHelp" placeholder="* Your email..." required disabled>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" name="comment" id="formComments" rows="3"
+                                        placeholder="* Comments..." required disabled></textarea>
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="AIzaSyAwK5h-tjFszr2ew_uxZHjt4FOkedCTNnw"></div>
+                                <button disabled id="form-button" class="g-recaptcha button my-3"
+                                    data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Send
+                                    message</button>
+                            </form>
                     </div>
                 </div>
             </div>
@@ -1782,7 +1791,8 @@
                 <div class="d-flex justify-content-center social-networks">
                     <a class="mx-2" href="https://www.threads.net/@bigbottle_89" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-threads" viewBox="0 0 16 16">
-                            <path d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161"/>
+                            <path
+                                d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161" />
                         </svg>
                     </a>
                     <a class="mx-2" href="https://www.instagram.com/bigbottle_89/" target="_blank">
@@ -1902,15 +1912,17 @@
             document.getElementById("form-button").submit();
         }
     </script>
-    <script
-        src="https://www.google.com/recaptcha/enterprise.js?render=AIzaSyAwK5h-tjFszr2ew_uxZHjt4FOkedCTNnw"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render="></script>
     <script>
-        grecaptcha.enterprise.ready(function () {
-            grecaptcha.enterprise.execute('AIzaSyAwK5h-tjFszr2ew_uxZHjt4FOkedCTNnw', { action: 'login' }).then(function (token) {
-                //window.open('./php/mail.php');
+        grecaptcha.ready(function () {
+            grecaptcha.execute('', { action: 'submit' }).then(function (token) {
+                var form = document.getElementById('contact-form');
+                form.action += '?g-recaptcha-token=' + token;
+                form.submit();
             });
         });
     </script>
+
     <!-- Iubenda Script for Cookies' Disclaimer -->
     <script type="text/javascript">
         var _iub = _iub || [];
