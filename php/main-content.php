@@ -1,39 +1,3 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Antonio Buttiglione - Portfolio</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
-    <!-- Personal Style -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./media/img/ico/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./media/img/ico/apple-touch-icon-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./media/img/ico/apple-touch-icon-72.png">
-    <link rel="apple-touch-icon-precomposed" href="./media/img/ico/apple-touch-icon-57.png">
-    <link rel="shortcut icon" href="./media/img/ico/favicon.ico">
-    <!-- Google Captcha Script -->
-    <script
-        src="https://www.google.com/recaptcha/enterprise.js?render="></script>
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058348792"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11058348792');
-</script>
-
-<body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-custom">
         <div class="container-fluid">
@@ -42,8 +6,7 @@
                     <img src="./media/img/logo.png" alt="Logo AB Videomaker">
                 </a>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -52,28 +15,22 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)"
-                            href="#skillsSection">Skills</a>
+                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#skillsSection">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)"
-                            href="#portfolioSection">Portfolio</a>
+                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#portfolioSection">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)"
-                            href="#aboutSection">About</a>
+                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#aboutSection">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)"
-                            href="#clientsSection">Clients</a>
+                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#clientsSection">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)"
-                            href="#pricingSection">Prices</a>
+                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#pricingSection">Prices</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)"
-                            href="#contactSection">Contacts</a>
+                        <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#contactSection">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +39,7 @@
 
     <!-- Scroll to top -->
     <div class="position-fixed fixed-bottom mb-5">
-        <div class="d-flex justify-content-end me-5">
+        <div class="d-flex justify-content-end mb-5 me-2">
             <button onclick='scrollToTop()' class="text-dark rounded-circle border-0 js_goTop">
                 <i class="bi bi-arrow-up-circle-fill fs-1 p-1"></i>
             </button>
@@ -92,12 +49,9 @@
     <!-- Carousel -->
     <header id="introductionCarousel" class="carousel slide bg-carousel carousel-dark" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#introductionCarousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#introductionCarousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#introductionCarousel" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#introductionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#introductionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#introductionCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner bg-carousel-inner">
             <div class="carousel-item active" data-bs-interval="7000">
@@ -115,8 +69,7 @@
                             video maker. I live in a little town in
                             South of Italy. Scroll down to discover more about me.
                         </p>
-                        <a class="js_NavbarMenuItem btn btn-secondary text-white text-uppercase"
-                            href="#portfolioSection">Check my latest works</a>
+                        <a class="js_NavbarMenuItem btn btn-secondary text-white text-uppercase" href="#portfolioSection">Check my latest works</a>
                     </div>
                     <div class="col-12 col-md-4">
                         <img class="img-fluid" src="./media/img/Slider01.png" alt="who I am image">
@@ -137,8 +90,7 @@
                             professionally, but at the same time I like what I do. This helps me to give always the
                             100%.
                         </p>
-                        <a class="js_NavbarMenuItem btn btn-secondary text-white text-uppercase"
-                            href="#clientsSection">See what who I worked with says</a>
+                        <a class="js_NavbarMenuItem btn btn-secondary text-white text-uppercase" href="#clientsSection">See what who I worked with says</a>
                     </div>
                     <div class="col-12 col-md-4">
                         <img class="img-fluid" src="./media/img/Slider02.png" alt="who I am image">
@@ -158,8 +110,7 @@
                             I want to be constantly better than I was, improving my working skills, but I can do that
                             just with the experiences. Every job is an experience for me. An opportunity to be better.
                         </p>
-                        <a class="js_NavbarMenuItem btn btn-secondary text-white text-uppercase"
-                            href="#contactSection">Contact me for new jobs</a>
+                        <a class="js_NavbarMenuItem btn btn-secondary text-white text-uppercase" href="#contactSection">Contact me for new jobs</a>
                     </div>
                     <div class="col-12 col-md-4">
                         <img class="img-fluid" src="./media/img/Slider03.png" alt="who I am image">
@@ -167,13 +118,11 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev custom-carousel-nav-arrow" type="button"
-            data-bs-target="#introductionCarousel" data-bs-slide="prev">
+        <button class="carousel-control-prev custom-carousel-nav-arrow" type="button" data-bs-target="#introductionCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next custom-carousel-nav-arrow" type="button"
-            data-bs-target="#introductionCarousel" data-bs-slide="next">
+        <button class="carousel-control-next custom-carousel-nav-arrow" type="button" data-bs-target="#introductionCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -261,24 +210,19 @@
                 <div class="col-12">
                     <ul class="nav nav-pills nav-fill portfolio-nav-pills">
                         <li class="nav-item">
-                            <button class="nav-link button active js_portfolioNavBtn portfolio-filter-btn"
-                                onclick="filterPortfolio(this.id)" id="allProjects">All</button>
+                            <button class="nav-link button active js_portfolioNavBtn portfolio-filter-btn" onclick="filterPortfolio(this.id)" id="allProjects">All</button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link button js_portfolioNavBtn" onclick="filterPortfolio(this.id)"
-                                id="ux">UX Design</button>
+                            <button class="nav-link button js_portfolioNavBtn" onclick="filterPortfolio(this.id)" id="ux">UX Design</button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link button js_portfolioNavBtn" onclick="filterPortfolio(this.id)"
-                                id="graphic">Graphic Design</button>
+                            <button class="nav-link button js_portfolioNavBtn" onclick="filterPortfolio(this.id)" id="graphic">Graphic Design</button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link button js_portfolioNavBtn" onclick="filterPortfolio(this.id)"
-                                id="video">Video</button>
+                            <button class="nav-link button js_portfolioNavBtn" onclick="filterPortfolio(this.id)" id="video">Video</button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link button js_portfolioNavBtn" onclick="filterPortfolio(this.id)"
-                                id="photo">Photo</button>
+                            <button class="nav-link button js_portfolioNavBtn" onclick="filterPortfolio(this.id)" id="photo">Photo</button>
                         </li>
                     </ul>
                 </div>
@@ -315,22 +259,14 @@
                 <div class="row bg-black single-project" data-js-project-id="2" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
                         <div class="w3-content w3-display-container">
-                            <img class="mySlides" src="./media/img/portfolio/0-Homepage.jpg"
-                                style="width:100%; display:block;">
-                            <img class="mySlides" src="./media/img/portfolio/1-Basic_Search.jpg"
-                                style="width:100%; display:none;">
-                            <img class="mySlides"
-                                src="./media/img/portfolio/2-Advanced_Search_Empty_Form_Multiple_Keyword.jpg"
-                                style="width:100%; display:none;">
-                            <img class="mySlides" src="./media/img/portfolio/6-Results_Table_with_Alert.jpg"
-                                style="width:100%; display:none;">
-                            <img class="mySlides" src="./media/img/portfolio/10-Result_Detail.jpg"
-                                style="width:100%; display:none;">
+                            <img class="mySlides" src="./media/img/portfolio/0-Homepage.jpg" style="width:100%; display:block;">
+                            <img class="mySlides" src="./media/img/portfolio/1-Basic_Search.jpg" style="width:100%; display:none;">
+                            <img class="mySlides" src="./media/img/portfolio/2-Advanced_Search_Empty_Form_Multiple_Keyword.jpg" style="width:100%; display:none;">
+                            <img class="mySlides" src="./media/img/portfolio/6-Results_Table_with_Alert.jpg" style="width:100%; display:none;">
+                            <img class="mySlides" src="./media/img/portfolio/10-Result_Detail.jpg" style="width:100%; display:none;">
 
-                            <button class="w3-button w3-black w3-display-left"
-                                onclick="plusDivs(-1, 'mySlides')">&#10094;</button>
-                            <button class="w3-button w3-black w3-display-right"
-                                onclick="plusDivs(1, 'mySlides')">&#10095;</button>
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 'mySlides')">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 'mySlides')">&#10095;</button>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
@@ -358,12 +294,7 @@
                 </div>
                 <div class="row bg-black single-project" data-js-project-id="3" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
-                        <iframe
-                            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvicolodellacultura%2Fvideos%2F1134893469870767%2F&show_text=false&width=560&t=0"
-                            width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                            allowfullscreen="true"
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                            allowFullScreen="true"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvicolodellacultura%2Fvideos%2F1134893469870767%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
                         <div class="project-description">
@@ -475,10 +406,7 @@
                 </div>
                 <div class="row bg-black single-project" data-js-project-id="7" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4DUFi_d1IlM"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4DUFi_d1IlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
                         <div class="project-description">
@@ -562,11 +490,7 @@
                 </div>
                 <div class="row bg-black single-project" data-js-project-id="10" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/ETBwv6qC41s?si=T7RLj8pHiv4LFKmW"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ETBwv6qC41s?si=T7RLj8pHiv4LFKmW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
                         <div class="project-description">
@@ -644,8 +568,7 @@
                 </div>
                 <div class="row bg-black single-project" data-js-project-id="13" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
-                        <iframe src="https://player.vimeo.com/video/192421725?h=53d79e51c0" width="640" height="360"
-                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/192421725?h=53d79e51c0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
                         <div class="project-description">
@@ -675,10 +598,7 @@
                 </div>
                 <div class="row bg-black single-project" data-js-project-id="14" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/u0dm_gJB7-A"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/u0dm_gJB7-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
                         <div class="project-description">
@@ -705,10 +625,7 @@
                 </div>
                 <div class="row bg-black single-project" data-js-project-id="15" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/f0JFWsSom8w"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/f0JFWsSom8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
                         <div class="project-description">
@@ -735,10 +652,7 @@
                 </div>
                 <div class="row bg-black single-project" data-js-project-id="16" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tx3PsRI1ssU"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tx3PsRI1ssU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
                         <div class="project-description">
@@ -766,24 +680,15 @@
                 <div class="row bg-black single-project" data-js-project-id="17" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
                         <div class="w3-content w3-display-container">
-                            <img class="mySlides2" src="./media/img/portfolio/Login_form.png"
-                                style="width:100%; display:block;">
-                            <img class="mySlides2" src="./media/img/portfolio/Registration_form.png"
-                                style="width:100%; display:none;">
-                            <img class="mySlides2" src="./media/img/portfolio/First_help_overlay.png"
-                                style="width:100%; display:none;">
-                            <img class="mySlides2" src="./media/img/portfolio/Homepage_dashboard.png"
-                                style="width:100%; display:none;">
-                            <img class="mySlides2" src="./media/img/portfolio/Homepage_toolbar.png"
-                                style="width:100%; display:none;">
-                            <img class="mySlides2" src="./media/img/portfolio/Internal_page_1.png"
-                                style="width:100%; display:none;">
-                            <img class="mySlides2" src="./media/img/portfolio/Internal_page_2.png"
-                                style="width:100%; display:none;">
-                            <button class="w3-button w3-black w3-display-left"
-                                onclick="plusDivs(-1, 'mySlides2')">&#10094;</button>
-                            <button class="w3-button w3-black w3-display-right"
-                                onclick="plusDivs(1, 'mySlides2')">&#10095;</button>
+                            <img class="mySlides2" src="./media/img/portfolio/Login_form.png" style="width:100%; display:block;">
+                            <img class="mySlides2" src="./media/img/portfolio/Registration_form.png" style="width:100%; display:none;">
+                            <img class="mySlides2" src="./media/img/portfolio/First_help_overlay.png" style="width:100%; display:none;">
+                            <img class="mySlides2" src="./media/img/portfolio/Homepage_dashboard.png" style="width:100%; display:none;">
+                            <img class="mySlides2" src="./media/img/portfolio/Homepage_toolbar.png" style="width:100%; display:none;">
+                            <img class="mySlides2" src="./media/img/portfolio/Internal_page_1.png" style="width:100%; display:none;">
+                            <img class="mySlides2" src="./media/img/portfolio/Internal_page_2.png" style="width:100%; display:none;">
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 'mySlides2')">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 'mySlides2')">&#10095;</button>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
@@ -812,9 +717,7 @@
                 <div class="row bg-black single-project" data-js-project-id="18" style="display:none;">
                     <div class="col-12 col-md-6 p-0 js_portfolioPreview">
                         <div class="w3-content w3-display-container">
-                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
-                                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLlkQZk0BmWusObdkjoMA6f%2Fw.academy%3Fpage-id%3D1%253A5%26type%3Ddesign%26node-id%3D841-6471%26viewport%3D-943%252C-521%252C0.35%26t%3DWZO56WlFyivA3Frf-1%26scaling%3Dcontain%26starting-point-node-id%3D494%253A4658%26mode%3Ddesign"
-                                allowfullscreen></iframe>
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLlkQZk0BmWusObdkjoMA6f%2Fw.academy%3Fpage-id%3D1%253A5%26type%3Ddesign%26node-id%3D841-6471%26viewport%3D-943%252C-521%252C0.35%26t%3DWZO56WlFyivA3Frf-1%26scaling%3Dcontain%26starting-point-node-id%3D494%253A4658%26mode%3Ddesign" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 py-3 js_portfolioDescription text-light">
@@ -849,15 +752,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="ux">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="18">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="18">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/Homepage_wacademy.png"
-                                    alt="w.academy home preview">
+                                <img class="w-100" src="./media/img/portfolio/Homepage_wacademy.png" alt="w.academy home preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -876,15 +777,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="ux">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="17">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="17">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/Homepage_toolbar.png"
-                                    alt="ADA Platform Preview">
+                                <img class="w-100" src="./media/img/portfolio/Homepage_toolbar.png" alt="ADA Platform Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -903,15 +802,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="ux">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="2">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="2">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/0-Homepage.jpg"
-                                    alt="United Nations Juris DB Preview">
+                                <img class="w-100" src="./media/img/portfolio/0-Homepage.jpg" alt="United Nations Juris DB Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -930,15 +827,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="video">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="3">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="3">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/Park-fiction-preview.jpg"
-                                    alt="Park Fiction Corto Movie Preview">
+                                <img class="w-100" src="./media/img/portfolio/Park-fiction-preview.jpg" alt="Park Fiction Corto Movie Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -957,8 +852,7 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="photo">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="1">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="1">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
@@ -983,8 +877,7 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="graphic">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="4">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="4">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
@@ -1009,15 +902,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="photo">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="5">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="5">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/Portfolio05.jpg"
-                                    alt="Sax player in Dublin">
+                                <img class="w-100" src="./media/img/portfolio/Portfolio05.jpg" alt="Sax player in Dublin">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1036,8 +927,7 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="graphic">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="6">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="6">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
@@ -1062,15 +952,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="video">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="7">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="7">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="http://img.youtube.com/vi/4DUFi_d1IlM/mqdefault.jpg"
-                                    alt="Breaking Food Video Preview">
+                                <img class="w-100" src="http://img.youtube.com/vi/4DUFi_d1IlM/mqdefault.jpg" alt="Breaking Food Video Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1089,15 +977,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="photo">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="8">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="8">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/Portfolio08.jpg"
-                                    alt="My friend in Plaza Mayor">
+                                <img class="w-100" src="./media/img/portfolio/Portfolio08.jpg" alt="My friend in Plaza Mayor">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1116,15 +1002,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="graphic">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="9">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="9">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/Portfolio09_thumb.jpg"
-                                    alt="MV Line Ad Panels Preview">
+                                <img class="w-100" src="./media/img/portfolio/Portfolio09_thumb.jpg" alt="MV Line Ad Panels Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1143,15 +1027,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="video">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="10">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="10">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="http://img.youtube.com/vi/ETBwv6qC41s/mqdefault.jpg"
-                                    alt="Cooking Video Contest Preview">
+                                <img class="w-100" src="http://img.youtube.com/vi/ETBwv6qC41s/mqdefault.jpg" alt="Cooking Video Contest Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1170,15 +1052,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="photo">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="11">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="11">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/Portfolio10.jpg"
-                                    alt="My friend at Monte Carlo">
+                                <img class="w-100" src="./media/img/portfolio/Portfolio10.jpg" alt="My friend at Monte Carlo">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1197,15 +1077,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="photo">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="12">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="12">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="./media/img/portfolio/Portfolio11.jpg"
-                                    alt="My friend at Juan-les_Pins">
+                                <img class="w-100" src="./media/img/portfolio/Portfolio11.jpg" alt="My friend at Juan-les_Pins">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1224,16 +1102,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="video">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="13">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="13">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100"
-                                    src="https://i.vimeocdn.com/video/665823823-38e0ad1b0d79e0c237302b6f9500596cfdbe8af299e712ec3e2ddc8c656a6e7f-d?mw=960&mh=540"
-                                    alt="ADA Corporate Video Preview">
+                                <img class="w-100" src="https://i.vimeocdn.com/video/665823823-38e0ad1b0d79e0c237302b6f9500596cfdbe8af299e712ec3e2ddc8c656a6e7f-d?mw=960&mh=540" alt="ADA Corporate Video Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1252,15 +1127,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="video">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="14">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="14">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="http://img.youtube.com/vi/u0dm_gJB7-A/mqdefault.jpg"
-                                    alt="San Filippo Video Preview">
+                                <img class="w-100" src="http://img.youtube.com/vi/u0dm_gJB7-A/mqdefault.jpg" alt="San Filippo Video Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1279,15 +1152,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="video">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="15">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="15">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="http://img.youtube.com/vi/f0JFWsSom8w/mqdefault.jpg"
-                                    alt="Nonostante la Xylella Video Preview">
+                                <img class="w-100" src="http://img.youtube.com/vi/f0JFWsSom8w/mqdefault.jpg" alt="Nonostante la Xylella Video Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1306,15 +1177,13 @@
                 <div class="col-12 col-md-4 js_portfolioThumb" data-js-category="video">
                     <div class="position-relative overlay-animation">
                         <div class="plus position-absolute text-center">
-                            <a href="#portfolioItemDetails" class="js_openSingleProject"
-                                onclick="openSingleProject(this)" data-js-preview-id="16">
+                            <a href="#portfolioItemDetails" class="js_openSingleProject" onclick="openSingleProject(this)" data-js-preview-id="16">
                                 <i class="bi bi-plus-circle text-light"></i>
                             </a>
                         </div>
                         <figure class="mb-0">
                             <div class="portfolio-thumb-img">
-                                <img class="w-100" src="https://i.ytimg.com/vi/tx3PsRI1ssU/hqdefault.jpg"
-                                    alt="Nonostante la Xylella Video Preview">
+                                <img class="w-100" src="https://i.ytimg.com/vi/tx3PsRI1ssU/hqdefault.jpg" alt="Nonostante la Xylella Video Preview">
                             </div>
                             <figcaption class="bg-black text-center p-1">
                                 <p class="text-light m-0">
@@ -1398,20 +1267,16 @@
         <div class="row pb-5">
             <div class="col-12 col-md-6">
                 <h3 class="color-turquoise">Skills</h3>
-                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label"
-                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                     <div class="progress-bar progress-bar-custom" style="width: 90%">Html & Css</div>
                 </div>
-                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label"
-                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                     <div class="progress-bar progress-bar-custom" style="width: 80%">Graphic Design</div>
                 </div>
-                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label"
-                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                     <div class="progress-bar progress-bar-custom" style="width: 65%">Video Making</div>
                 </div>
-                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label"
-                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                     <div class="progress-bar progress-bar-custom" style="width: 75%">Photograpy</div>
                 </div>
             </div>
@@ -1451,12 +1316,9 @@
                         <div id="carouselDarkVariant" class="carousel carousel-dark" data-mdb-ride="carousel">
                             <!-- Indicators -->
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselDarkVariant" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselDarkVariant" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselDarkVariant" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselDarkVariant" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselDarkVariant" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselDarkVariant" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
                             <!-- Indicators -->
                             <!-- Inner -->
@@ -1467,9 +1329,7 @@
                                         <div class="col-8 col-md-8 col-lg-9 col-xl-8">
                                             <div class="d-flex flex-column flex-md-row align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="./media/img/clients/Client1.png"
-                                                        class="rounded-circle mb-4 mb-lg-0 shadow-2"
-                                                        alt="Client 1 Picture" width="90" height="90">
+                                                    <img src="./media/img/clients/Client1.png" class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="Client 1 Picture" width="90" height="90">
                                                 </div>
                                                 <div class="flex-grow-1 ms-4 ps-3">
                                                     <figure>
@@ -1485,8 +1345,7 @@
                                                             </p>
                                                         </blockquote>
                                                         <figcaption class="blockquote-footer">
-                                                            Giuseppe Scaramuzzi - Head of Communications in <cite
-                                                                title="Source Title">in MV Line</cite>
+                                                            Giuseppe Scaramuzzi - Head of Communications in <cite title="Source Title">in MV Line</cite>
                                                         </figcaption>
                                                     </figure>
                                                 </div>
@@ -1501,9 +1360,7 @@
                                         <div class="col-8 col-md-8 col-lg-9 col-xl-8">
                                             <div class="d-flex flex-column flex-md-row align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="./media/img/clients/Client2_hide.png"
-                                                        class="rounded-circle mb-4 mb-lg-0 shadow-2"
-                                                        alt="Client 2 Picture" width="90" height="90">
+                                                    <img src="./media/img/clients/Client2_hide.png" class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="Client 2 Picture" width="90" height="90">
                                                 </div>
                                                 <div class="flex-grow-1 ms-4 ps-3">
                                                     <figure>
@@ -1518,8 +1375,7 @@
                                                             </p>
                                                         </blockquote>
                                                         <figcaption class="blockquote-footer">
-                                                            Fortunato Perez - Head of Communications <cite
-                                                                title="Source Title">in Associazione Centro ELIS</cite>
+                                                            Fortunato Perez - Head of Communications <cite title="Source Title">in Associazione Centro ELIS</cite>
                                                         </figcaption>
                                                     </figure>
                                                 </div>
@@ -1534,9 +1390,7 @@
                                         <div class="col-8 col-md-8 col-lg-9 col-xl-8">
                                             <div class="d-flex flex-column flex-md-row align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="./media/img/clients/Client3.png"
-                                                        class="rounded-circle mb-4 mb-lg-0 shadow-2"
-                                                        alt="Client 3 Picture" width="90" height="90">
+                                                    <img src="./media/img/clients/Client3.png" class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="Client 3 Picture" width="90" height="90">
                                                 </div>
                                                 <div class="flex-grow-1 ms-4 ps-3">
                                                     <figure>
@@ -1551,8 +1405,7 @@
                                                             </p>
                                                         </blockquote>
                                                         <figcaption class="blockquote-footer">
-                                                            Stefano Caruso - Former Web Master in <cite
-                                                                title="Source Title">in Rome Reports
+                                                            Stefano Caruso - Former Web Master in <cite title="Source Title">in Rome Reports
                                                                 Magazine</cite>
                                                         </figcaption>
                                                     </figure>
@@ -1564,13 +1417,11 @@
                             </div>
                             <!-- Inner -->
                             <!-- Controls -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDarkVariant"
-                                data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselDarkVariant"
-                                data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -1639,8 +1490,7 @@
                                 <div class="card-header-custom p-4">
                                     <h3 class="card-title text-light text-uppercase text-center">WEB & UI DESIGN</h3>
                                 </div>
-                                <div
-                                    class="card-body text-center card-body-custom d-flex flex-column justify-content-center">
+                                <div class="card-body text-center card-body-custom d-flex flex-column justify-content-center">
                                     <p class="price">
                                         from 549 €
                                     </p>
@@ -1660,8 +1510,7 @@
                                 <div class="card-header-custom p-4">
                                     <h3 class="card-title text-light text-uppercase text-center">GRAPHIC DESIGN</h3>
                                 </div>
-                                <div
-                                    class="card-body text-center card-body-custom d-flex flex-column justify-content-center">
+                                <div class="card-body text-center card-body-custom d-flex flex-column justify-content-center">
                                     <p class="price">
                                         from 199 €
                                     </p>
@@ -1681,8 +1530,7 @@
                                 <div class="card-header-custom p-4">
                                     <h3 class="card-title text-light text-uppercase text-center">VIDEO MAKING</h3>
                                 </div>
-                                <div
-                                    class="card-body text-center card-body-custom d-flex flex-column justify-content-center">
+                                <div class="card-body text-center card-body-custom d-flex flex-column justify-content-center">
                                     <p class="price">
                                         from 249 €
                                     </p>
@@ -1702,8 +1550,7 @@
                                 <div class="card-header-custom p-4">
                                     <h3 class="card-title text-light text-uppercase text-center">PHOTOGRAPHY</h3>
                                 </div>
-                                <div
-                                    class="card-body text-center card-body-custom d-flex flex-column justify-content-center">
+                                <div class="card-body text-center card-body-custom d-flex flex-column justify-content-center">
                                     <p class="price">
                                         from 99 €
                                     </p>
@@ -1742,24 +1589,19 @@
             <div class="container">
                 <div class="row my-3">
                     <div class="col-12 col-md-5 bg-alternate">
-                        <form id="contact-form" class="text-center" action="./php/mail.php" method="post">
+                        <form id="contact-form" class="text-center" action="./php/mail.php" method="POST">
                             <strong>This form is under maintainance, if you need to contact me check the email address
                                 in the footer or contact me via social networks</strong>
                             <div class="my-3">
-                                <input type="text" class="form-control" name="name" id="formName"
-                                    aria-describedby="nameHelp" placeholder="* Your name..." required disabled>
+                                <input type="text" class="form-control" name="name" id="formName" aria-describedby="nameHelp" placeholder="* Your name..." required>
                             </div>
                             <div class="my-3">
-                                <input type="email" class="form-control" name="email" id="formEmail"
-                                    aria-describedby="emailHelp" placeholder="* Your email..." required disabled>
+                                <input type="email" class="form-control" name="email" id="formEmail" aria-describedby="emailHelp" placeholder="* Your email..." required>
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" name="comment" id="formComments" rows="3"
-                                    placeholder="* Comments..." required disabled></textarea>
+                                <textarea class="form-control" name="comment" id="formComments" rows="3" placeholder="* Comments..." required></textarea>
                             </div>
-                            <button id="form-button" class="g-recaptcha button my-3"
-                                data-sitekey="" data-callback='onSubmit'
-                                data-action='submit' disabled>Send
+                            <button id="form-button" class="g-recaptcha button my-3" data-sitekey="" data-callback='onSubmit' data-action='submit'>Send
                                 message</button>
                         </form>
                     </div>
@@ -1767,156 +1609,3 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="container py-5 mb-5">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="text-center text-light">
-                    Gioia del Colle, Bari, Italy
-                </h3>
-                <h2 class="contacts-email">
-                    info@abvideomaker.com
-                </h2>
-                <h4 class="text-center color-turquoise mt-3">
-                    Reach me out on my Social Networks
-                </h4>
-                <div class="position-fixed fixed-bottom">
-                    <a href="https://www.iubenda.com/privacy-policy/7970663"
-                        class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe"
-                        title="Privacy Policy ">Privacy Policy</a>
-                </div>
-                <div class="d-flex justify-content-center social-networks">
-                    <a class="mx-2" href="https://www.threads.net/@bigbottle_89" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-threads" viewBox="0 0 16 16">
-                            <path
-                                d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161" />
-                        </svg>
-                    </a>
-                    <a class="mx-2" href="https://www.instagram.com/bigbottle_89/" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-instagram" viewBox="0 0 16 16">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>
-                    </a>
-                    <a class="mx-2" href="https://www.linkedin.com/in/abuttiglione/" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>5
-    <script
-        type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
-    <script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
-    <!-- Navigation Bar Interactions -->
-    <script>
-        //enable active class to menu item
-        function navigateToAnchor(navCurrent) {
-            $(".js_NavbarMenu li a").toArray().forEach(
-                function (nav) {
-                    $(nav).removeClass("active");
-                }
-            );
-            $(navCurrent).addClass("active");
-        };
-
-        //filter porfolio previews
-        function filterPortfolio(portfolioCurrentId) {
-            $('.js_portfolioNavBtn').removeClass("active");
-            $('#' + portfolioCurrentId).toggleClass("active");
-            $('.js_portfolioThumb').fadeOut("fast");
-            if (portfolioCurrentId != "allProjects") {
-                $('.js_portfolioThumb[data-js-category="' + portfolioCurrentId + '"]').fadeIn("fast");
-            } else {
-                $('.js_portfolioThumb').fadeIn("fast");
-            }
-        }
-
-        //open the portfolio item detail
-        function openSingleProject(projectPreview) {
-            projectId = $(projectPreview).attr('data-js-preview-id');
-            $('[data-js-project-id]').slideUp();
-            $("iframe").each(function () {
-                var src = $(this).attr('src');
-                $(this).attr('src', src);
-            });
-            $('[data-js-project-id="' + projectId + '"]').slideDown();
-            $('.js_closeSingleProject').click(
-                function () {
-                    $("iframe").each(function () {
-                        var src = $(this).attr('src');
-                        $(this).attr('src', src);
-                    });
-                    $('[data-js-project-id]').slideUp();
-                }
-            )
-        }
-
-        //scroll to top button
-        function scrollToTop() {
-            $('html, body').animate({
-                scrollTop: $('html, body').offset().top,
-            });
-        }
-    </script>
-    <!-- Calculate Age -->
-    <script>
-        //Calculate age and show it in the slider
-        jQuery(document).ready(function showAge(birthDate, id) {
-            var birth = new Date('1989-06-30');
-            var now = new Date();
-            var difference = now - birth;
-            // Dates are set from 1970, so remove that to get the year 
-            var age = new Date(difference).getFullYear() - 1970
-            $('#age').html(age);
-        });
-    </script>
-
-    <!-- Slider Script -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function (event) {
-            var slideIndex = 1;
-            showDivs(slideIndex);
-        })
-
-        function plusDivs(n, mySlidesClass) {
-            showDivs(slideIndex += n, mySlidesClass);
-        }
-
-        function showDivs(n, mySlidesClass) {
-            var i;
-            var x = document.getElementsByClassName(mySlidesClass);
-            if (n > x.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = x.length }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
-        }
-    </script>
-
-    <!-- Google Captcha JS -->
-    <script>
-        function onSubmit(token) {
-            document.getElementById("contact-form").submit();
-        }
-    </script>
-
-    <!-- Iubenda Script for Cookies' Disclaimer -->
-    <script type="text/javascript">
-        var _iub = _iub || [];
-        _iub.csConfiguration = { "askConsentAtCookiePolicyUpdate": true, "countryDetection": true, "enableLgpd": true, "enableUspr": true, "floatingPreferencesButtonDisplay": "bottom-left", "lang": "en", "lgpdAppliesGlobally": false, "perPurposeConsent": true, "siteId": 666049, "whitelabel": false, "cookiePolicyId": 7970663, "banner": { "acceptButtonDisplay": true, "closeButtonDisplay": false, "customizeButtonDisplay": true, "explicitWithdrawal": true, "listPurposes": true, "position": "float-top-center", "rejectButtonDisplay": true, "showPurposesToggles": true } };
-    </script>
-    <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
-    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
-</body>
-
-</html>
