@@ -591,8 +591,7 @@
                             <div class="mb-3">
                                 <textarea class="form-control" name="comment" id="formComments" rows="3" placeholder="* Comments..." required></textarea>
                             </div>
-                            <button id="form-button" class="g-recaptcha button my-3" data-sitekey="" data-callback='onSubmit' data-action='submit'>Send
-                                message</button>
+                            <button class="g-recaptcha button my-3" data-sitekey="6LdqIcYpAAAAAPQ8hkYOGcKJL5K8WtmKRkxZMpbF" data-callback='onSubmit' data-action='submit'>Send message</button>
                         </form>
                     </div>
                 </div>

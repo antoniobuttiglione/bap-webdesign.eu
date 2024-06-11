@@ -147,15 +147,10 @@
 
 <!-- Google Captcha JS -->
 <script>
-      function onClick(e) {
-        e.preventDefault();
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LdqIcYpAAAAAPQ8hkYOGcKJL5K8WtmKRkxZMpbF', {action: 'submit'}).then(function(token) {
-              // Add your logic to submit to your backend server here.
-          });
-        });
-      }
-  </script>
+    function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    }
+</script>
 
 <!-- Iubenda Script for Cookies' Disclaimer -->
 <script type="text/javascript">

@@ -16,7 +16,7 @@
 <link rel="shortcut icon" href="./media/img/ico/favicon.ico">
 
 <!-- Google Captcha Script -->
-<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdqIcYpAAAAAPQ8hkYOGcKJL5K8WtmKRkxZMpbF"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058348792"></script>
