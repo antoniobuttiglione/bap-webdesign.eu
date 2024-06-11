@@ -29,7 +29,7 @@ if (!empty($_POST)) {
   // reCAPTCHA v3 Verification (Replace with your actual keys)
   if (isset($_POST['g-recaptcha-response'])) {
     $captcha = $_POST['g-recaptcha-response'];
-    $secretKey = "YOUR_RECAPTCHA_SITE_KEY"; // Replace with your actual site key
+    $secretKey = $recaptchaSiteKey; // Replace with your actual site key
     $ip = $_SERVER['REMOTE_ADDR'];
 
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$captcha&remoteip=$ip");
