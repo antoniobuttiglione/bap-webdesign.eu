@@ -1,5 +1,8 @@
 <?php
 
+// Include the config file
+include('./php/config.php');
+
 // Include any necessary functions (e.g., cleanEvilTags, cleanData)
 
 if (!empty($_POST)) {
@@ -26,7 +29,7 @@ if (!empty($_POST)) {
   // reCAPTCHA v3 Verification (Replace with your actual keys)
   if (isset($_POST['g-recaptcha-response'])) {
     $captcha = $_POST['g-recaptcha-response'];
-    $secretKey = "";
+    $secretKey = "YOUR_RECAPTCHA_SITE_KEY"; // Replace with your actual site key
     $ip = $_SERVER['REMOTE_ADDR'];
 
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$captcha&remoteip=$ip");
@@ -54,7 +57,7 @@ if (!empty($_POST)) {
     $headers .= "From: <$emailFrom>" . "\r\n";
 
     if (mail($emailTo, $emailSubject, $message, $headers)) {
-      $data['message'] = 'Thank you for compiling the form.';
+      $data['message'] = 'Thank you for compiling the form. Your email has been sent.'; // Updated message
     } else {
       $data['success'] = false;
       $data['errors'][] = 'Error sending email.';
