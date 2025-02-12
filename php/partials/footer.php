@@ -147,9 +147,9 @@
 
 <!-- Google Captcha JS -->
 <script>
-    function onSubmit(token) {
-        document.getElementById("demo-form").submit();
-    }
+  function onSubmit(token) {
+    document.getElementById("contact-form").submit();
+  }
 </script>
 
 <!-- Iubenda Script for Cookies' Disclaimer -->

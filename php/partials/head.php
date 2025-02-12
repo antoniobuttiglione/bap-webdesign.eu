@@ -16,10 +16,10 @@
 <link rel="shortcut icon" href="./media/img/ico/favicon.ico">
 
 <!-- Google Captcha Script -->
-<script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LeGVNUqAAAAAHvROIfW45IBohgnRC5SYuorxGXq"></script>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058348792"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-20V5J8WXJ9"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -28,5 +28,5 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'AW-11058348792');
+    gtag('config', 'G-20V5J8WXJ9');
 </script>
