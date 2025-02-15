@@ -1,0 +1,259 @@
+[
+    {
+        "id": 1,
+        "title": "Street photography",
+        "date": "July 2013",
+        "skills": ["Photography", "Photo editing"],
+        "description": "This is a picture taken during my last holiday in Dublin. The street artist was performing in Grafton Street.",
+        "type": "Photo",
+        "format": "image",
+        "media": {
+            "src": "./media/img/portfolio/Portfolio02.jpg",
+            "alt": "Street photography"
+        }
+    },
+    {
+        "id": 2,
+        "title": "UX Design Project",
+        "date": "May 2022",
+        "skills": ["UX Design", "UX research", "Web Design"],
+        "description": "As freelance UX Designer in NTT Data I worked on redesigning FE and BE of the United Nations Juris Database.",
+        "type": "UX Design",
+        "format": "image series",
+        "media": [
+            {
+                "src": "./media/img/portfolio/0-Homepage.jpg",
+                "alt": "Homepage"
+            },
+            {
+                "src": "./media/img/portfolio/1-Basic_Search.jpg",
+                "alt": "Basic Search"
+            },
+            {
+                "src": "./media/img/portfolio/2-Advanced_Search_Empty_Form_Multiple_Keyword.jpg",
+                "alt": "Advanced Search"
+            },
+            {
+                "src": "./media/img/portfolio/6-Results_Table_with_Alert.jpg",
+                "alt": "Results Table"
+            },
+            {
+                "src": "./media/img/portfolio/10-Result_Detail.jpg",
+                "alt": "Result Detail"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Corto Movie for Adda passà 'a nuttata",
+        "date": "July 2014",
+        "skills": ["Video shooting & mounting", "Visual Effects", "Post-production"],
+        "description": "Corto Movie, realized with Adda passà 'a nuttata no profit association, about abusive valet racket in Italy, especially in Napoli.",
+        "type": "Video",
+        "format": "iframe",
+        "media": {
+            "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvicolodellacultura%2Fvideos%2F1134893469870767%2F&show_text=false&width=560&t=0",
+            "alt": "Corto Movie"
+        }
+    },
+    {
+        "id": 4,
+        "title": "iMatik Catalogue",
+        "date": "November 2014",
+        "skills": ["Graphic Design", "Page Styles with InDesign"],
+        "description": "Catalogue of electric motors for roller shutters and roller blinds of iMatik",
+        "type": "Graphic Design",
+        "format": "image",
+        "media": {
+            "src": "./media/img/portfolio/Portfolio03.jpg",
+            "alt": "iMatik Catalogue"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Street photography",
+        "date": "July 2013",
+        "skills": ["Photography", "Photo editing"],
+        "description": "This is a picture taken during my last holiday in Dublin.",
+        "type": "Photo",
+        "format": "image",
+        "media": {
+            "src": "./media/img/portfolio/Portfolio05.jpg",
+            "alt": "Street photography"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Newspaper Advertising",
+        "date": "July 2014",
+        "skills": ["Graphic Design", "Page Styles with InDesign"],
+        "description": "Advertising of 'Irene' flyscreen by MV Line published on the italian newspaper 'La Repubblica'",
+        "type": "Graphic Design",
+        "format": "image",
+        "media": {
+            "src": "./media/img/portfolio/Portfolio06.jpg",
+            "alt": "Newspaper Advertising"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Self-made Video",
+        "date": "December 2014",
+        "skills": ["Video shooting & mounting", "Post-production"],
+        "description": "Video made all by myself about the Olive Oil, with my grandfather as actor and Oil producer, the video is based on the cooking scene of the most popular tv show in the world, Breaking Bad.",
+        "type": "Video",
+        "format": "iframe",
+        "media": {
+            "src": "https://www.youtube.com/embed/4DUFi_d1IlM",
+            "alt": "Self-made Video"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Street photography",
+        "date": "December 2014",
+        "skills": ["Photography", "Photo editing"],
+        "description": "Picture taken at Plaza Mayor in Salamanca during my last studing travel in Spain.",
+        "type": "Photo",
+        "format": "image",
+        "media": {
+            "src": "./media/img/portfolio/Portfolio08.jpg",
+            "alt": "Street photography"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Newspaper Advertising",
+        "date": "September 2014",
+        "skills": ["Graphic Design", "Page Styles with InDesign"],
+        "description": "Advertising panel with sizes 150x170 cm for TecnoChiusura of the 'Phantomatik' flyscreen by MV Line.",
+        "type": "Graphic Design",
+        "format": "image",
+        "media": {
+            "src": "./media/img/portfolio/Portfolio09.jpg",
+            "alt": "Newspaper Advertising"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Self-made Video",
+        "date": "March 2010",
+        "skills": ["Video Editing", "Motion Design"],
+        "description": "Video made all by myself for a Multimedia course test",
+        "type": "Video",
+        "format": "iframe",
+        "media": {
+            "src": "https://www.youtube.com/embed/ETBwv6qC41s?si=T7RLj8pHiv4LFKmW",
+            "alt": "Self-made Video"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Street photography",
+        "date": "August 2015",
+        "skills": ["Photography", "Photo editing"],
+        "description": "Picture taken at Monte Carlo during my last studing travel in France.",
+        "type": "Photo",
+        "format": "image",
+        "media": {
+            "src": "./media/img/portfolio/Portfolio10.jpg",
+            "alt": "Street photography"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Street photography",
+        "date": "August 2015",
+        "skills": ["Photography", "Photo editing"],
+        "description": "Picture taken at Juan-les-Pins in Antibes during my last studing travel in France.",
+        "type": "Photo",
+        "format": "image",
+        "media": {
+            "src": "./media/img/portfolio/Portfolio11.jpg",
+            "alt": "Street photography"
+        }
+    },
+    {
+        "id": 13,
+        "title": "Self-made Video",
+        "date": "March 2017",
+        "skills": ["Video shooting & editing", "Post-production"],
+        "description": "Corporate video created for The Digital Box company to promote the ADA Platform, main product of the company",
+        "type": "Video",
+        "format": "iframe",
+        "media": {
+            "src": "https://player.vimeo.com/video/192421725?h=53d79e51c0",
+            "alt": "Self-made Video"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Self-made Video",
+        "date": "May 2017",
+        "skills": ["Video shooting & editing", "Post-production"],
+        "description": "This is a video made by myself during the procession of the Patron Saint in my town, Gioia del Colle.",
+        "type": "Video",
+        "format": "iframe",
+        "media": {
+            "src": "https://www.youtube.com/embed/u0dm_gJB7-A",
+            "alt": "Self-made Video"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Self-made Video",
+        "date": "August 2017",
+        "skills": ["Video shooting & editing", "Post-production"],
+        "description": "This is a video made by myself and submitted to the 'Accademia Mediterranea del Cinema' for the contest 'Nonostante la Xylella'.",
+        "type": "Video",
+        "format": "iframe",
+        "media": {
+            "src": "https://www.youtube.com/embed/f0JFWsSom8w",
+            "alt": "Self-made Video"
+        }
+    },
+    {
+        "id": 16,
+        "title": "Produced Corto Trailer",
+        "date": "December 2022",
+        "skills": ["Video shooting & editing", "Post-production"],
+        "description": "A brief introduction made with a video of the highlights during a concert made by this Ensemble Resonare Fibris. Shooting and Editing made by me",
+        "type": "Video",
+        "format": "iframe",
+        "media": {
+            "src": "https://www.youtube.com/embed/tx3PsRI1ssU",
+            "alt": "Produced Corto Trailer"
+        }
+    },
+    {
+        "id": 17,
+        "title": "UX Design Project",
+        "date": "N/A",
+        "skills": ["UX Design", "Web Design"],
+        "description": "Various UX design elements including login form, registration form, help overlay, dashboard, and toolbar.",
+        "type": "UX Design",
+        "format": "image series",
+        "media": [
+            {
+                "src": "./media/img/portfolio/Login_form.png",
+                "alt": "Login form"
+            },
+            {
+                "src": "./media/img/portfolio/Registration_form.png",
+                "alt": "Registration form"
+            },
+            {
+                "src": "./media/img/portfolio/First_help_overlay.png",
+                "alt": "First help overlay"
+            },
+            {
+                "src": "./media/img/portfolio/Homepage_dashboard.png",
+                "alt": "Homepage dashboard"
+            },
+            {
+                "src": "./media/img/portfolio/Homepage_toolbar.png",
+                "alt": "Homepage toolbar"
+            }
+        ]
+    }
+]

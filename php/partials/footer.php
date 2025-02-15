@@ -6,13 +6,13 @@
                 Gioia del Colle, Bari, Italy
             </h3>
             <h2 class="contacts-email">
-                info@abvideomaker.com
+                antonio.buttiglione@gmail.com
             </h2>
             <h4 class="text-center color-turquoise mt-3">
                 Reach me out on my Social Networks
             </h4>
             <div class="position-fixed fixed-bottom">
-                <a href="https://www.iubenda.com/privacy-policy/7970663" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe" title="Privacy Policy ">Privacy Policy</a>
+            <a href="https://www.iubenda.com/privacy-policy/7970663" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
             </div>
             <div class="d-flex justify-content-center social-networks">
                 <a class="mx-2" href="https://www.threads.net/@bigbottle_89" target="_blank">
@@ -154,30 +154,9 @@
 
 <!-- Iubenda Script for Cookies' Disclaimer -->
 <script type="text/javascript">
-    var _iub = _iub || [];
-    _iub.csConfiguration = {
-        "askConsentAtCookiePolicyUpdate": true,
-        "countryDetection": true,
-        "enableLgpd": true,
-        "enableUspr": true,
-        "floatingPreferencesButtonDisplay": "bottom-left",
-        "lang": "en",
-        "lgpdAppliesGlobally": false,
-        "perPurposeConsent": true,
-        "siteId": 666049,
-        "whitelabel": false,
-        "cookiePolicyId": 7970663,
-        "banner": {
-            "acceptButtonDisplay": true,
-            "closeButtonDisplay": false,
-            "customizeButtonDisplay": true,
-            "explicitWithdrawal": true,
-            "listPurposes": true,
-            "position": "float-top-center",
-            "rejectButtonDisplay": true,
-            "showPurposesToggles": true
-        }
-    };
+var _iub = _iub || [];
+_iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"countryDetection":true,"enableLgpd":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"bottom-right","lang":"en","lgpdAppliesGlobally":false,"perPurposeConsent":true,"siteId":666049,"whitelabel":false,"cookiePolicyId":7970663,"banner":{"acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-top-center","rejectButtonDisplay":true,"showPurposesToggles":true}};
 </script>
+<script type="text/javascript" src="//cs.iubenda.com/sync/666049.js"></script>
 <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
 <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
