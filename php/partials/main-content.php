@@ -257,17 +257,17 @@
         <div class="row pb-5">
             <div class="col-12 col-md-6">
                 <h3 class="color-turquoise">Skills</h3>
-                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                     <div class="progress-bar progress-bar-custom" style="width: 90%">Html & Css</div>
+                </div>
+                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-custom" style="width: 70%">Web Design & UI/UX Design</div>
                 </div>
                 <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                     <div class="progress-bar progress-bar-custom" style="width: 80%">Graphic Design</div>
                 </div>
                 <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar progress-bar-custom" style="width: 65%">Video Making</div>
-                </div>
-                <div class="progress progress-custom my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar progress-bar-custom" style="width: 75%">Photograpy</div>
+                    <div class="progress-bar progress-bar-custom" style="width: 65%">Photograpy & Video Making</div>
                 </div>
             </div>
             <div class="col-12 col-md-6 bg-alternate text-center d-flex flex-column justify-content-center">
@@ -450,6 +450,9 @@
                 </div>
                 <div class="col-6 col-md-3 bg-light">
                     <img class="img-fluid w-100" src="./media/img/clients/ClientLogo10.png" alt="">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img class="img-fluid w-100" src="./media/img/clients/ClientLogo11.png" alt="">
                 </div>
                 <div class="col-6 col-md-3">
                     <h3 class="text-light text-center"><strong>BE MY NEXT CLIENT!</strong></h3>
