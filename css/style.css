@@ -1,12 +1,8 @@
-/* abvideomaker.com template by Antonio Buttiglione ©2023 */
+/* bap-webdesign.eu template by Antonio Buttiglione ©2023 */
 
 /* Common Styles */
 body {
     background-color: #181A1C;
-}
-
-.not-focused {
-    opacity: 0.5;
 }
 
 .heading-subtitle {
@@ -29,7 +25,7 @@ body {
     background-color: #D1D7DB;
 }
 
-.bg-black {
+.bg-dark-custom {
     background-color: #181A1C;
 }
 
@@ -66,6 +62,7 @@ body {
 
 .logo img {
     width: 120px;
+    height: auto; /* width/height attrs are 170x50: keep the ratio when CSS shrinks the width */
 }
 
 .capitalize {
@@ -91,18 +88,28 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.custom-carousel-nav-arrow {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
 .mx-slider {
     margin-left: 15%;
     margin-right: 15%;
 }
 
 .py-slider {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.bubble {
+    background: #99CCCCdd;
+    text-transform: uppercase;
+    width: 30vmin;
+    height: 15vmin;
+    border-radius: 1vmin;
+    left: -14%;
+    top: -13%;
+    padding: 1vmin;
+    border: 0.4vmin solid #181A1C;
+    transform: rotate(340deg);
+    position: absolute;
 }
 
 /* Services */
@@ -134,30 +141,9 @@ body {
     width: 100%;
 }
 
-.w3-black,
-.w3-hover-black:hover {
-    color: #fff !important;
-    background-color: #000 !important
-}
-
-.w3-display-container {
-    position: relative
-}
-
-.w3-display-left {
-    position: absolute;
-    top: 100px;
-    left: 0%;
-    transform: translate(0%, -50%);
-    -ms-transform: translate(-0%, -50%)
-}
-
-.w3-display-right {
-    position: absolute;
-    top: 100px;
-    right: 0%;
-    transform: translate(0%, -50%);
-    -ms-transform: translate(0%, -50%)
+.project-gallery img {
+    display: block;
+    height: auto;
 }
 
 .project-description {
@@ -181,7 +167,7 @@ body {
     width: 80%;
 }
 
-.project-title .close {
+.project-title .project-close {
     color: #99CCCC;
     cursor: pointer;
 }
@@ -212,16 +198,18 @@ body {
     text-align: center;
 }
 
-#portfolio-grid .mix {
-    opacity: 0;
-    display: none;
+.portfolio-thumb-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
 }
 
-.portfolio-thumb-img {
-    width: auto;
-    height: 10%;
-    max-height: 175px;
-    overflow-y: hidden;
+.portfolio-thumb-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
 }
 
 .overlay-animation {
@@ -285,18 +273,6 @@ body {
     top: 0;
 }
 
-.progress-custom {
-    height: 40px;
-    border-radius: 0;
-}
-
-.progress-bar-custom {
-    background: #99CCCC;
-    color: #000000;
-    text-align: left;
-    padding-left: 10px;
-}
-
 /* Pricing */
 
 .pricing .card {
@@ -331,7 +307,7 @@ body {
 }
 
 .pricing .text-muted {
-    opacity: 0.7;
+    color: #A3ABB7 !important;
 }
 
 .pricing .btn {
@@ -340,7 +316,6 @@ body {
     letter-spacing: .1rem;
     font-weight: bold;
     padding: 1rem;
-    opacity: 0.7;
     transition: all 0.2s;
 }
 
@@ -359,16 +334,11 @@ body {
 }
 
 .card-body-custom {
-    color: #747C89;
+    color: #A3ABB7; /* was #747C89 = 4.1:1 on #181A1C; now >= 7:1 */
 }
 
 /* Contacts */
-.bg-google-maps {
-    background: url(../media/img/google_maps.png) no-repeat;
-    background-position-y: bottom;
-}
 
-/* Footer */
 .contacts-email {
     border: 1px solid #ffffff;
     padding: 10px 20px;
@@ -388,5 +358,102 @@ body {
 }
 
 .social-networks a:hover {
-    fill: #747C89;
+    fill: #A3ABB7;
+}
+
+/* Performance, accessibility and responsive behavior */
+[hidden] {
+    display: none !important;
+}
+
+.featured-work-badge {
+    z-index: 2;
+    padding: 0.35rem 0.65rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.overlay-animation:focus-within .overlay-black {
+    top: 0;
+}
+
+.overlay-animation:focus-within .plus {
+    top: 25%;
+}
+
+.js-open-project:focus-visible,
+.project-close:focus-visible,
+.gallery-btn:focus-visible,
+.portfolio-filter-btn:focus-visible {
+    outline: 3px solid #0d6efd;
+    outline-offset: 3px;
+}
+
+.project-title .project-close {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    line-height: 1;
+}
+
+.single-project iframe {
+    display: block;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+@media (hover: none), (max-width: 767.98px) {
+    .team-container {
+        overflow: visible;
+    }
+
+    .team-container .caption-mask {
+        position: static !important;
+        top: auto;
+        height: auto;
+        transition: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Project viewer (rendered by js/works.js) */
+.project-close {
+    float: right;
+    width: 40px;
+    height: 40px;
+    color: #99CCCC;
+    cursor: pointer;
+}
+
+.gallery-btn {
+    position: absolute;
+    top: 100px;
+    transform: translateY(-50%);
+    border: 0;
+    padding: 0.5rem 0.9rem;
+    color: #fff;
+    background: #000;
+}
+
+.gallery-prev { left: 0; }
+.gallery-next { right: 0; }
+
+.project-embed {
+    display: block;
+    border: 0;
+    width: 100%;
+}
+
+#projectViewer:focus {
+    outline: none;
 }
