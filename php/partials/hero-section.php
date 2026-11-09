@@ -26,8 +26,8 @@
                     <p>
                         I design websites, digital products and visual identities that help businesses communicate clearly and connect with their audience.
                     </p>
-                    <a class="js_NavbarMenuItem btn btn-secondary text-white text-uppercase my-2" onclick="navigateToAnchor(this)" href="#portfolioSection">Explore My Work →</a>
-                    <a class="js_NavbarMenuItem btn btn-primary text-white text-uppercase my-2" onclick="navigateToAnchor(this)" href="#contactSection">Start a Project →</a>
+                    <a class="js_NavbarMenuItem btn btn-secondary text-white text-uppercase my-2" href="#portfolioSection">Explore My Work →</a>
+                    <a class="js_NavbarMenuItem btn btn-primary text-white text-uppercase my-2" href="#contactSection">Start a Project →</a>
                 </div>
             </div>
         </div>

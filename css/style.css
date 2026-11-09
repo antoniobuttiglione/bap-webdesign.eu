@@ -401,7 +401,8 @@ body {
     aspect-ratio: 16 / 9;
 }
 
-@media (hover: none), (max-width: 767.98px) {
+/* Touch screens have no hover, so show the caption statically there (desktop keeps the slide-up animation at any width) */
+@media (hover: none) {
     .team-container {
         overflow: visible;
     }
@@ -411,17 +412,6 @@ body {
         top: auto;
         height: auto;
         transition: none;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
-        scroll-behavior: auto !important;
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
     }
 }
 
@@ -460,4 +450,8 @@ body {
 /* Testimonial photos are not all square (Client3 is 180x172): crop instead of squashing */
 .client-slider-card img.rounded-circle {
     object-fit: cover;
+}
+
+.anchor-section:focus {
+    outline: none;
 }

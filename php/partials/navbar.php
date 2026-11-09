@@ -12,20 +12,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto capitalize navbar-hover js_NavbarMenu">
                 <li class="nav-item">
-                    <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#portfolioSection">Work</a>
+                    <a class="nav-link js_NavbarMenuItem" href="#portfolioSection">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#skillsSection">Services</a>
+                    <a class="nav-link js_NavbarMenuItem" href="#skillsSection">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#aboutSection">About</a>
+                    <a class="nav-link js_NavbarMenuItem" href="#aboutSection">About</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#pricingSection">Pricing</a>
+                    <a class="nav-link js_NavbarMenuItem" href="#pricingSection">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js_NavbarMenuItem" onclick="navigateToAnchor(this)" href="#contactSection">Contact</a>
+                    <a class="nav-link js_NavbarMenuItem" href="#contactSection">Contact</a>
                 </li>
             </ul>
         </div>
